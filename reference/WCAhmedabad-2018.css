@@ -1,0 +1,3535 @@
+/* Custom CSS from 2017.ahmedabad.wordcamp.org */
+/*** Common ***/
+body {
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	color: #424242;
+	font-family: 'Domine', serif;
+}
+
+body, button, input, select, textarea {
+	font-family: 'Domine', serif;
+}
+
+img {
+	vertical-align: top;
+}
+
+.mobile-visible {
+	display: none !important;
+}
+
+li > ul, li > ol {
+	margin-left: 0;
+}
+
+::-moz-placeholder {
+	font-family: 'Domine', serif;
+	color: #8d8d8d;
+}
+
+::-webkit-input-placeholder {
+/* Chrome/Opera/Safari */
+	font-family: 'Domine', serif;
+	color: #8d8d8d;
+}
+
+::-moz-placeholder {
+/* Firefox 19+ */
+	font-family: 'Domine', serif;
+	color: #8d8d8d;
+}
+
+:-ms-input-placeholder {
+/* IE 10+ */
+	font-family: 'Domine', serif;
+	color: #8d8d8d;
+}
+
+/*** Header ***/
+#masthead .site-branding, #site-navigation .menu-scroll-down, .custom-header-media::before {
+	display: none;
+}
+
+#masthead .navigation-top {
+	z-index: 999;
+	background-color: #fff;
+}
+
+.navigation-top {
+	border-top: none;
+}
+
+.navigation-top .wrap {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#site-navigation #top-menu {
+	text-align: center;
+	margin-bottom: -1px;
+}
+
+#site-navigation #top-menu li {
+	padding: 0 15px;
+	min-width: 118px;
+}
+
+#site-navigation #top-menu li li {
+	padding: 0;
+}
+
+#site-navigation #top-menu li a {
+	font-size: 16px;
+	font-family: 'Muli', sans-serif;
+	padding: 35px 0 30px;
+	border-bottom: 3px solid transparent;
+}
+
+#site-navigation #top-menu li li a {
+	border: medium none;
+	font-size: 14px;
+	padding: 10px;
+	background-color: #fff !important;
+}
+
+#site-navigation #top-menu li.header-logo {
+	padding: 0 10px;
+}
+
+#site-navigation #top-menu li.header-logo a {
+	display: inline-block;
+	width: 126px;
+	height: 92px;
+	background: transparent url('https://2018.ahmedabad.wordcamp.org/files/2018/08/logo.png') no-repeat center center;
+	position: relative;
+	top: 11px;
+	border: none !important;
+}
+
+#site-navigation #top-menu li a:hover, #site-navigation #top-menu li.current-menu-item a {
+	color: #ef5734;
+	border-color: #ef5734;
+}
+
+/*** Home - About ***/
+.home .wrap {
+	padding: 0;
+	max-width: 100% !important;
+}
+
+.container {
+	max-width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.home .entry-header {
+	display: none;
+}
+
+.home #about-section {
+	background: transparent url('https://2018.ahmedabad.wordcamp.org/files/2018/08/About-WordCamp.png') repeat-x center bottom;
+	padding-bottom: 250px;
+}
+
+.home .home-section {
+	padding: 80px 0;
+}
+
+.row::after, .row::before {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.col {
+	float: left;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.two-col .col {
+	width: 50%;
+}
+
+.home #about-section .text-wrap {
+	padding: 40px;
+	background-color: #f7f7f7;
+}
+
+.home .home-section h2 {
+	display: inline-block;
+	text-align: right;
+	position: relative;
+	font-family: 'Muli', sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	color: #424242;
+	margin-bottom: 0;
+	padding-bottom: 50px;
+}
+
+.home .home-section h2 strong {
+	display: block;
+	font-weight: 700;
+}
+
+.home .home-section h2:before {
+	content: "";
+	display: inline-block;
+	right: -20px;
+	width: 2px;
+	top: 15px;
+	bottom: 50px;
+	position: absolute;
+	background-color: #424242;
+}
+
+.home .home-section h2:after {
+	content: "";
+	display: inline-block;
+	right: -35px;
+	height: 2px;
+	width: 35px;
+	bottom: 30px;
+	position: absolute;
+	background-color: #424242;
+}
+
+.home .home-section .section-btn {
+	padding-top: 40px;
+}
+
+.home .home-section .section-btn a {
+	display: inline-block;
+	padding: 15px 40px;
+	border: 1px solid #424242 !important;
+	font-family: 'Muli', sans-serif;
+	color: #ef5734;
+	font-size: 18px;
+	box-shadow: none;
+	position: relative;
+}
+
+.home .home-section .section-btn a:after {
+	content: "";
+	display: inline-block;
+	right: -20px;
+	height: 1px;
+	width: 40px;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	position: absolute;
+	background-color: #ef5734;
+}
+
+.home #about-section .section-image {
+	margin-top: 50px;
+}
+
+.home #about-section .about_image {
+	position: relative;
+}
+
+.home #about-section .about_image a span {
+	background-image: url('https://2017.ahmedabad.wordcamp.org/files/2017/06/view-video.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	bottom: 20px;
+	color: #ffffff;
+	display: block;
+	font-size: 60px;
+	height: 55px;
+	line-height: inherit;
+	position: absolute;
+	right: 20px;
+	vertical-align: top;
+	width: 180px;
+}
+
+.home #about-section .about_image a {
+	bottom: 0;
+	display: block;
+	left: 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	box-shadow: none !important;
+}
+
+/*** Home - City ***/
+.home #city-section {
+	background: transparent url('https://2018.ahmedabad.wordcamp.org/files/2018/08/wcahmedabad-banner.jpg') no-repeat center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.home #city-section .col {
+	float: right;
+}
+
+.home #city-section .text-wrap {
+	padding: 40px;
+	background-color: #f7f7f7;
+}
+
+/*** Home - Venue ***/
+.home #venue-section {
+	background: transparent url('https://2018.ahmedabad.wordcamp.org/files/2018/08/our-venue.png') repeat-x scroll center bottom;
+	min-height: 600px;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+}
+
+.home #venue-section .container {
+	left: 0;
+	position: absolute;
+	right: 0;
+	padding-top: 60px;
+	z-index: 30;
+}
+
+.home #venue-section h2 {
+	max-width: 150px;
+	display: block;
+	margin: 0 auto;
+	left: -30px;
+}
+
+.home #venue-section .text-wrap {
+	padding-right: 30px;
+	width: 50%;
+}
+
+.home #venue-section .venue-info {
+	padding-top: 15px;
+	color: #ef5734;
+}
+
+.home #venue-section .venue-image {
+	bottom: 0;
+	clear: both;
+	left: 0;
+	overflow: hidden;
+	padding-left: 50%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.home #venue-section .venue-image-wrap {
+	background-image: url('https://2018.ahmedabad.wordcamp.org/files/2018/08/our-venue.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+/*** Home - Sponsors ***/
+.home #sponsors-section-new {
+}
+
+.home #sponsors-section-new h2 {
+	max-width: 220px;
+	display: block;
+	margin: 0 auto;
+	left: -30px;
+}
+
+.home #sponsors-section-new .container {
+	max-width: 100%;
+}
+
+.home #sponsors-section-new .sponsor-logos {
+	padding: 30px;
+	text-align: center;
+}
+
+.home #sponsors-section-new .sponsor-item a,
+.home #sponsors-section-new .sponsor-item img {
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+
+.home #sponsors-section-new .sponsor-item {
+	max-width: 250px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 15px;
+}
+
+/*** Home - Sponsors ***/
+.home #sponsors-section {
+	background: transparent no-repeat center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.home #sponsors-section h2 {
+	max-width: 220px;
+	display: block;
+	margin: 0 auto;
+	left: -40px;
+	color: #fff;
+}
+
+.home #sponsors-section h2:before, .home #sponsors-section h2:after {
+	background-color: #fff;
+}
+
+.home #sponsors-section .container {
+	max-width: 100%;
+}
+
+.home #sponsors-section .sponsor-logos-wrap {
+	overflow: hidden;
+	padding-top: 50px;
+}
+
+.home #sponsors-section .sponsor-logos {
+	margin-bottom: -1px;
+	margin-right: -1px;
+}
+
+.home #sponsors-section .single-slogo {
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+	width: 20%;
+	margin-right: -4px;
+	text-align: center;
+	position: relative;
+	min-height: 150px;
+}
+
+.home #sponsors-section .slogo-wrap {
+	position: relative;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	left: 10px;
+	right: 10px;
+	padding: 10px;
+}
+
+.home #sponsors-section .single-slogo::before {
+	background-color: #f7f7f7;
+	bottom: 0;
+	content: "";
+	height: 1px;
+	left: 15px;
+	position: absolute;
+	right: 15px;
+}
+
+.home #sponsors-section .single-slogo::after {
+	background-color: #f7f7f7;
+	bottom: 15px;
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 15px;
+	width: 1px;
+}
+
+.home #sponsors-section .slogo-wrap img {
+	max-height: 80px;
+	width: auto;
+	box-shadow: none !important;
+}
+
+/*** Home - Speakers ***/
+.home #speakers-section {
+	background-color: #fff;
+}
+
+.home #speakers-section h2 {
+	max-width: 220px;
+	display: block;
+	margin: 0 auto;
+	left: -30px;
+	color: #fff;
+}
+
+.home #speakers-section h2:before, .home #sponsors-section h2:after {
+	background-color: #fff;
+}
+
+.home #speakers-section .speakers-list {
+	overflow: hidden;
+	padding-top: 50px;
+}
+
+.home #speakers-section .single-speaker {
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+	width: 25%;
+	margin-right: -4px;
+	text-align: center;
+	padding: 15px;
+}
+
+.home #speakers-section .speaker-wrap {
+	position: relative;
+}
+
+.home #speakers-section .speaker-wrap::before {
+	background-color: #424242;
+	bottom: 10px;
+	content: "";
+	display: inline-block;
+	left: 10px;
+	position: absolute;
+	top: 10px;
+	width: 1px;
+}
+
+.home #speakers-section .speaker-wrap::after {
+	background-color: #424242;
+	right: 10px;
+	content: "";
+	display: inline-block;
+	left: 10px;
+	position: absolute;
+	top: 10px;
+	height: 1px;
+}
+
+.home #speakers-section .speaker-detail::before {
+	background-color: #424242;
+	right: 10px;
+	content: "";
+	display: inline-block;
+	bottom: 10px;
+	position: absolute;
+	top: 10px;
+	width: 1px;
+}
+
+.home #speakers-section .speaker-detail::after {
+	background-color: #424242;
+	right: 10px;
+	content: "";
+	display: inline-block;
+	left: 10px;
+	position: absolute;
+	bottom: 10px;
+	height: 1px;
+}
+
+.home #speakers-section .speaker-image img {
+	width: 100%;
+	vertical-align: top;
+}
+
+.home #speakers-section .speaker-detail {
+	background-color: #f2f2f2;
+	padding: 15px 15px 30px;
+	text-align: center;
+}
+
+.home #speakers-section .speaker-detail h3 {
+	color: #1c1c1c;
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.home #speakers-section .speaker-detail p {
+	margin-bottom: 0;
+	font-size: 14px;
+}
+
+.home #speakers-section .section-btn {
+	text-align: center;
+}
+
+/* Home - WCAhmedabad 2017 */
+#wcahmd2017 {
+	font-family: 'Muli', sans-serif;
+	background-color: #ef5734;
+	padding: 0;
+	position: relative;
+}
+
+#wcahmd2017 .group-image img {
+	width: 100%;
+}
+
+#wcahmd2017 #info {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.4);
+	top: 0;
+}
+
+#wcahmd2017 .container {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 80px;
+}
+
+#wcahmd2017 h3 {
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+#wcahmd2017 ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0 -15px;
+}
+
+#wcahmd2017 ul li {
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+	box-sizing: border-box;
+	padding: 0 15px;
+	margin-right: -4px;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+}
+
+#wcahmd2017 ul li strong {
+	display: block;
+	font-size: 40px;
+	color: #ef5734;
+}
+
+#wcahmd2017 .section-btn {
+	text-align: center;
+}
+
+#wcahmd2017 .section-btn a {
+	border-color: #fff !important;
+	color: #fff !important;
+}
+
+#wcahmd2017 .section-btn a:after {
+	background-color: #fff !important;
+}
+
+/*** Home - Blog ***/
+.home #blog-section {
+	background-color: #f7f7f7;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.home #blog-section h2 {
+	max-width: 200px;
+	display: block;
+	margin: 0 auto;
+	left: -40px;
+}
+
+.home #blog-section h2:before, .home #blog-section h2:after {
+}
+
+.home #blog-section .single-post {
+	margin-bottom: 40px;
+}
+
+.home #blog-section .posts-list {
+	padding-top: 30px;
+}
+
+.home #blog-section .post-wrap {
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.home #blog-section .post-image {
+	float: left;
+	width: 50%;
+}
+
+.home #blog-section .right .post-image {
+	float: right;
+}
+
+.home #blog-section .post-image img, .home #blog-section .post-image a {
+	box-shadow: none !important;
+	vertical-align: top;
+	display: block;
+	width: 100%;
+}
+
+.home #blog-section .post-detail {
+	box-sizing: border-box;
+	float: left;
+	padding: 30px;
+	width: 50%;
+}
+
+.home #blog-section .post-detail h3 {
+	margin-bottom: 10px;
+}
+
+.home #blog-section .post-detail h3 a {
+	box-shadow: none !important;
+	font-family: 'Muli', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	color: #1c1c1c;
+}
+
+.home #blog-section .post-detail strong {
+	font-weight: 400;
+	display: inline-block;
+	padding-bottom: 15px;
+}
+
+.home #blog-section .post-detail strong::before {
+	margin-right: 7px;
+	position: relative;
+	top: 1px;
+}
+
+.home #blog-section .post-detail .section-btn {
+	padding-top: 0;
+	text-align: left;
+	padding-bottom: 0;
+}
+
+.home #blog-section .section-btn {
+	text-align: center;
+}
+
+.home #blog-section .section-btn a.blog-link {
+}
+
+.home #blog-section .section-btn a.blog-link:after {
+	background-color: #000;
+}
+
+/**** Footer ***/
+#colophon {
+	margin-top: 0;
+	border: none;
+}
+
+#colophon .wrap {
+	max-width: 100% !important;
+	padding: 0 !important;
+}
+
+#colophon .widget-area {
+	padding: 0;
+}
+
+#colophon .widget-column {
+	width: 100%;
+	float: none;
+}
+
+#colophon .footer-widget-1 {
+	background: transparent url('https://2018.ahmedabad.wordcamp.org/files/2018/08/Subscribe-BG.jpg') no-repeat center center;
+	background-size: cover;
+	padding: 70px 30px 0;
+	border-top: 1px solid #eee;
+}
+
+#colophon .widget {
+	padding: 0;
+}
+
+#colophon .footer-widget-1 .jetpack_subscription_widget {
+	max-width: 650px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 75px;
+	position: relative;
+}
+
+#colophon .footer-widget-1 h2.widget-title {
+	color: #424242;
+	font-size: 40px;
+	font-family: 'Muli', sans-serif;
+	text-transform: none;
+	font-weight: 700;
+	letter-spacing: normal;
+	margin-bottom: 0;
+}
+
+#colophon .footer-widget-1 #subscribe-text {
+	color: #424242;
+	font-size: 24px;
+}
+
+#colophon .footer-widget-1 input[type="email"] {
+	line-height: normal;
+	-webkit-appearance: none;
+	box-shadow: 0 3px 8px 0 #0000001f;
+	border: none;
+	font-family: 'Domine', serif;
+	color: #000;
+	border-radius: 4px;
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 15px 30px;
+	background: #fff;
+}
+
+#colophon .footer-widget-1 input[type="submit"] {
+	line-height: normal;
+	-webkit-appearance: none;
+	box-shadow: none;
+	border: none;
+	font-family: 'Muli', sans-serif;
+	color: #fff;
+	border-radius: 4px;
+	width: auto;
+	text-align: center;
+	padding: 11px 40px;
+	background: #ef5734;
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+#colophon .footer-widget-1 .error {
+	font-family: 'Muli', sans-serif;
+	color: #fff;
+	margin: 15px 0;
+	background-color: #e1323b;
+	font-size: 16px;
+	padding: 10px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#colophon .footer-widget-1 .success {
+	font-family: 'Muli', sans-serif;
+	color: #fff;
+	margin: 15px 0;
+	background-color: #0e863e;
+	font-size: 16px;
+	padding: 10px;
+}
+
+#colophon .footer-widget-1 .success p {
+	margin: 0;
+}
+
+#colophon .site-info {
+	display: none;
+}
+
+#colophon .footer-widget-2 {
+	background-color: #ef5734;
+	padding: 30px;
+	color: #fff;
+}
+
+#colophon .footer-widget-2 .widget_text {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+#colophon .footer-widget-2 a {
+	box-shadow: none !important;
+}
+
+#colophon .footer-logo {
+	float: left;
+	padding: 0 150px;
+	margin-top: -145px;
+}
+
+#colophon .footer-text {
+	overflow: hidden;
+}
+
+#colophon .footer-text a {
+	color: #fff !important;
+}
+
+#colophon .social-icons {
+}
+
+#colophon .social-icons a {
+/* background-color: #026793;
+	border-radius: 50px; */
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 50px;
+	margin-right: 15px;
+}
+
+#colophon .social-icons a span::before {
+	font-size: 24px;
+	line-height: 50px;
+}
+
+#colophon h2 {
+	padding-top: 20px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+#colophon .copyright {
+	margin-top: 15px;
+}
+
+a, #wccsp-container input, #wccsp-container button, #wccsp-container textarea, #wccsp-container select, #wccsp-container a {
+	outline: none !important;
+}
+
+#wccsp-container a {
+	text-decoration: none !important;
+}
+
+/*** Banner Area ***/
+#wccsp-container .wccsp-header:before {
+	content: "";
+	min-height: 832px;
+	display: block;
+	background-image: url('https://2018.ahmedabad.wordcamp.org/files/2018/08/Banner_New.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-color: #006f9e;
+}
+
+#wccsp-container .wccsp-header:after {
+	display: none;
+}
+
+#wccsp-container .wccsp-header {
+	padding: 0;
+	background: none;
+}
+
+#wccsp-container .wccsp-header h1, #wccsp-container .wccsp-header h2 {
+	display: none;
+}
+
+#wccsp-container .wccsp-header .wccsp-container {
+	margin: 60px auto;
+	max-width: 730px;
+}
+
+/*** Subscription ***/
+#wccsp-container .wccsp-header .wccsp-subscription .jetpack_subscription_widget {
+	display: block;
+	padding: 70px 160px 40px 25px;
+	background: transparent url('https://2017.ahmedabad.wordcamp.org/files/2017/04/Subscription-BG.png') no-repeat top center;
+}
+
+#wccsp-container .wccsp-header .wccsp-subscription form {
+	background: #ede9e6 none repeat scroll 0 0;
+	border: 1px solid #c9c5c2;
+	border-radius: 60px;
+	display: block;
+	padding: 10px;
+	position: relative;
+}
+
+#wccsp-container .wccsp-header #subscribe-email input {
+	padding-right: 300px;
+	width: 100%;
+	border: 1px solid #d6601a;
+	border-radius: 40px;
+	font-size: 20px;
+	padding: 15px 245px 15px 30px;
+	color: #000;
+	height: 65px;
+	line-height: normal;
+	-webkit-appearance: none;
+	box-shadow: none;
+}
+
+#wccsp-container .wccsp-header input[type="submit"] {
+	background: #d6601a;
+	border: none;
+	border-radius: 0 40px 40px 0;
+	color: #fff;
+	font-size: 20px;
+	height: 65px;
+	min-width: 230px;
+	padding: 15px;
+	position: absolute;
+	right: 10px;
+	text-shadow: none;
+	text-transform: uppercase;
+	top: 10px;
+	width: auto;
+	-webkit-appearance: none;
+	box-shadow: none;
+}
+
+#wccsp-container .wccsp-header .wccsp-subscription .jetpack_subscription_widget p.error {
+	color: #000;
+	font-size: 16px;
+	margin-bottom: 5px;
+	margin-top: -20px;
+}
+
+#wccsp-container .wccsp-header .wccsp-subscription .jetpack_subscription_widget .success {
+	color: #000;
+	font-size: 20px;
+}
+
+/*** Introduction ***/
+#wccsp-container .wccsp-introduction {
+	box-shadow: 0 3px 30px 0 rgba(0,0,0,0.1);
+	margin-bottom: 75px;
+	padding: 80px 60px 180px;
+	border: none;
+	margin: 30px auto 0;
+	max-width: 600px;
+	background: #fff;
+	position: relative;
+}
+
+#wccsp-container .wccsp-introduction::before {
+	content: "Contact the Organizers";
+	display: block;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 50px;
+	text-align: center;
+	color: #424242;
+}
+
+#wccsp-container .wccsp-introduction #wccsp-introduction {
+	text-align: center;
+	font-size: 20px;
+	position: relative;
+	color: #999999;
+}
+
+#wccsp-container .wccsp-introduction #wccsp-introduction:before {
+	content: "";
+	height: 4px;
+	width: 30px;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: -30px;
+	background-color: #424242;
+	margin: 0 auto;
+}
+
+#wccsp-container .wccsp-introduction::after {
+	background-color: #d3d3d3;
+	bottom: -100px;
+	content: "";
+	display: inline-block;
+	height: 200px;
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	width: 1px;
+	z-index: 50;
+}
+
+#wccsp-container .wccsp-container {
+	max-width: 100%;
+	padding: 0;
+}
+
+/*** Contact ***/
+#wccsp-container .wccsp-contact {
+	background: #f7f7f7;
+	padding-top: 300px;
+	margin-top: -150px;
+	margin-bottom: 0;
+}
+
+#wccsp-container .wccsp-contact h2 {
+	display: none;
+}
+
+#wccsp-container .wccsp-contact .contact-form {
+	max-width: 600px;
+	padding: 30px;
+	margin: 0 auto;
+}
+
+#wccsp-container .wccsp-contact .contact-form label {
+	font-size: 22px;
+}
+
+#wccsp-container .wccsp-contact .contact-form input[type="text"], #wccsp-container .wccsp-contact .contact-form input[type="email"], #wccsp-container .wccsp-contact .contact-form textarea {
+	border: 2px solid #f1f1f1;
+	font-size: 16px;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	height: auto;
+	margin-bottom: 0;
+	max-width: 100%;
+	padding: 15px;
+	width: 100%;
+	-webkit-appearance: none;
+	border-radius: 0;
+	box-shadow: none;
+	box-shadow: -2px 9px 30px 0 rgba(0,0,0,0.01);
+}
+
+#wccsp-container .wccsp-contact .contact-form input[type="text"]:focus, #wccsp-container .wccsp-contact .contact-form input[type="email"]:focus, #wccsp-container .wccsp-contact .contact-form textarea:focus {
+	box-shadow: -2px 9px 30px 0 rgba(0,0,0,0.08);
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+}
+
+#wccsp-container .wccsp-contact .contact-form textarea {
+	height: 200px;
+}
+
+#wccsp-container .wccsp-contact .contact-submit {
+	text-align: center;
+}
+
+#wccsp-container .wccsp-contact .contact-form input[type="submit"] {
+	background: #ef5734 none repeat scroll 0 0;
+	-webkit-appearance: none;
+	box-shadow: none;
+	border: medium none;
+	font-size: 20px;
+	height: auto;
+	padding: 15px 30px;
+	text-shadow: none;
+	width: auto;
+	box-shadow: -2px 9px 30px 0 rgba(0,0,0,0.08);
+}
+
+.form-error {
+	text-align: center;
+	font-size: 16px;
+	padding: 0 15px;
+}
+
+.form-error ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+/*** Footer ***/
+.wccsp-footer {
+	background: #f7f7f7;
+	border-top: 2px solid #d3d3d3;
+}
+
+.wccsp-footer a {
+	color: #999999 !important;
+	text-decoration: none !important;
+}
+
+/*** Pages ***/
+.page-template-default .entry-header {
+	display: none;
+}
+
+ul, ol {
+	padding-left: 20px;
+}
+
+#page-content {
+	padding: 30px 0;
+}
+
+.page-template-default #content {
+	padding: 0 !important;
+}
+
+#masthead .wrap,
+.page-template-default .wrap,
+.page-template-default #primary {
+	padding: 0;
+	max-width: 100% !important;
+}
+
+.btn-wrap a {
+	border: 1px solid #424242;
+	color: #ef5734 !important;
+	display: inline-block;
+	font-family: "Muli", sans-serif;
+	font-size: 18px;
+	padding: 15px 40px;
+	position: relative;
+	box-shadow: none !important;
+}
+
+.btn-wrap a::after {
+	content: "";
+	display: inline-block;
+	right: -20px;
+	height: 1px;
+	width: 40px;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	position: absolute;
+	background-color: #ef5734;
+}
+
+h2.section-title::before {
+	background-color: #424242;
+	bottom: 50px;
+	content: "";
+	display: inline-block;
+	position: absolute;
+	right: -20px;
+	top: 15px;
+	width: 2px;
+}
+
+h2.section-title::after {
+	background-color: #424242;
+	bottom: 30px;
+	content: "";
+	display: inline-block;
+	height: 2px;
+	position: absolute;
+	right: -35px;
+	width: 35px;
+}
+
+h2.section-title {
+	color: #424242;
+	display: inline-block;
+	font-family: "Muli", sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	margin-bottom: 0;
+	padding-bottom: 50px;
+	position: relative;
+	text-align: right;
+}
+
+h2.section-title strong {
+	display: block;
+	font-weight: 700;
+}
+
+/*** Contact Page ***/
+.page-id-17 .contact-header {
+	padding: 40px 30px;
+}
+
+.page-id-17 .header-wrap {
+	background: #fff url('https://2018.ahmedabad.wordcamp.org/files/2018/08/Contact-Header-Banner.png') no-repeat top center;
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.page-id-17 .header-wrap h1 {
+	font-family: "Muli", sans-serif;
+	font-size: 40px;
+	color: #424242;
+	margin: 0;
+	padding: 60px 0 50px;
+}
+
+.page-id-17 .header-wrap h2 {
+	font-size: 16px;
+	margin: 0;
+	padding: 0 0 50px;
+}
+
+.page-id-17 #contact-content {
+	background-color: #f7f7f7;
+	position: relative;
+}
+
+.page-id-17 #contact-content:after {
+	content: "";
+	z-index: 1;
+	background-color: #e6f1f8;
+	position: absolute;
+	left: 50%;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: block;
+}
+
+.page-id-17 #contact-content .container {
+	max-width: 100%;
+	padding: 0;
+}
+
+.page-id-17 .text-wrap {
+	position: relative;
+	z-index: 30;
+	padding: 60px 20%;
+}
+
+.page-id-17 .text-wrap .section-title {
+	max-width: 180px;
+	display: block;
+	margin: 0 auto 40px;
+	position: relative;
+	left: -30px;
+}
+
+.page-id-17 .social-section .section-title {
+	max-width: 220px;
+}
+
+.page-id-17 #contact-content .contact-form label {
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+
+.page-id-17 #contact-content .contact-form label span {
+	display: block;
+	margin-left: 0;
+}
+
+.page-id-17 #contact-content .contact-form input,
+.page-id-17 #contact-content .contact-form textarea {
+	-webkit-appearance: none;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: 16px;
+	line-height: normal;
+	width: 100%;
+	padding: 15px;
+	background-color: transparent;
+	border-radius: 0;
+	border: none;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+.page-id-17 #contact-content .contact-form .contact-submit input {
+	width: auto;
+	padding: 15px 40px;
+	background-color: #ef5734;
+	color: #fff;
+	font-family: "Muli", sans-serif;
+	border-color: #ef5734;
+}
+
+.page-id-17 #contact-content .contact-form textarea {
+	height: 80px;
+}
+
+.page-id-17 #contact-content .contact-form .form-error {
+	text-align: left;
+	padding: 0;
+}
+
+.page-id-17 #contact-content .contact-form .form-error ul {
+	list-style-type: disc;
+	padding-left: 15px;
+}
+
+.page-id-17 #contact-content .contact-form .form-error ul li {
+	padding-bottom: 7px;
+}
+
+.page-id-17 #contact-content .social-media {
+	list-style-type: none;
+	padding: 0;
+	max-width: 220px;
+	margin: 0 auto;
+}
+
+.page-id-17 #contact-content .social-media li {
+	padding-top: 40px;
+}
+
+.page-id-17 #contact-content .social-media li:first-child {
+	padding-top: 0;
+}
+
+.page-id-17 #contact-content .social-media li a {
+	box-shadow: none !important;
+	color: #ef5734 !important;
+	font-size: 18px;
+}
+
+.page-id-17 #contact-content .social-media li a span::before {
+	font-size: 30px;
+	line-height: 70px;
+	position: relative;
+	left: -5px;
+}
+
+.page-id-17 #contact-content .social-media li a span {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	color: #fff;
+	background-color: #ef5734;
+	text-align: center;
+	font-size: 24px;
+	vertical-align: middle;
+	border-radius: 80px;
+	border: 5px solid #fff;
+	margin-right: 20px;
+}
+
+.page-id-17 #contact-content .social-media li a strong {
+	font-weight: 400;
+}
+
+.page-id-17 #contact-content .social-media li a span.dashicons-facebook-alt {
+	background-color: #546f9c;
+}
+
+.page-id-17 #contact-content .social-media li a span.dashicons-twitter {
+	background-color: #7dd0f0;
+}
+
+.page-id-17 #contact-content .social-media li a span.dashicons-email-alt {
+	background-color: #906ed6;
+}
+
+/*** Venue Page ***/
+.page-id-207 .page-header {
+	padding: 120px 30px;
+	background: #000 url('https://2018.ahmedabad.wordcamp.org/files/2018/08/Venue-banner.jpg') no-repeat center center;
+	text-align: center;
+}
+
+.page-header h2.section-title::before,
+.page-header h2.section-title::after {
+	background-color: #fff;
+}
+
+.page-header h2.section-title {
+	color: #fff;
+	position: relative;
+	left: -158px;
+	min-width: 280px;
+}
+
+.page-id-207 #venue-content {
+/*padding: 40px 0; */
+	background-color: #F7F7F7;
+}
+
+.page-id-207 #venue-content .container {
+	max-width: 100%;
+	padding: 0;
+}
+
+.page-id-207 #venue-content .row {
+}
+
+.page-id-207 #venue-content .text-wrap {
+	padding: 30px;
+	text-align: left;
+	height: 515px;
+	background-color: #fff;
+	display: table;
+	width: 100%;
+}
+
+.page-id-207 #venue-content .text-wrap .content-text {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.page-id-207 #venue-content .text-wrap .content-text p:last-child {
+	margin: 0;
+	padding: 0;
+}
+
+.page-id-207 #venue-content .text-wrap h2 {
+	font-family: "Muli", sans-serif;
+}
+
+.page-id-207 #venue-content .venue-image1 {
+	background: #fff url('https://2018.ahmedabad.wordcamp.org/files/2018/08/Venue-2.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+.page-id-207 #venue-content .venue-image2 {
+	background: #fff url('https://2018.ahmedabad.wordcamp.org/files/2018/08/Auditorium.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+.page-id-207 #venue-content .venue-image3 {
+	background: #fff url('https://2018.ahmedabad.wordcamp.org/files/2018/08/Inside-of-Venue.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+.page-id-207 #venue-content .venue-image1, .page-id-207 #venue-content .venue-image2, .page-id-207 #venue-content .venue-image3 {
+	display: block;
+}
+
+.page-id-207 #venue-address {
+	background: #666;
+	text-align: center;
+	padding: 60px 30px;
+	color: #fff;
+	font-size: 18px;
+}
+
+.page-id-207 #venue-address .btn-wrap a:after {
+	background-color: #fff;
+}
+
+.page-id-207 #venue-address .btn-wrap a {
+	color: #fff !important;
+	border-color: #fff;
+}
+
+/*** Code of Conduct ***/
+.page-id-19 .page-header {
+	padding: 120px 30px;
+	background: #ef5734;
+	text-align: center;
+}
+
+.page-id-19 #page-content h3, .page-id-19 #page-content li {
+	font-size: 20px;
+}
+
+.page-id-19 #page-content p,.page-id-19 #page-content li ul li {
+	font-size: 16px;
+}
+
+/*** Tickets Page ***/
+.page-id-13 .page-header {
+	padding: 120px 30px;
+	background: #ef5734;
+	text-align: center;
+}
+
+.page-id-13 #page-content .container, .page-id-13 #content #tix {
+	max-width: 900px !important;
+}
+
+.page-id-13 #content #tix {
+	max-width: 900px !important;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/*** Sponsors ***/
+.page-id-10 .page-header {
+	padding: 120px 30px;
+	background: #ef5734;
+	text-align: center;
+}
+
+.page-id-10 #page-content .container {
+	max-width: 750px;
+}
+
+.page-id-10 .sponsors-list {
+	margin: 0;
+/* padding: 30px 0; */
+	position: relative;
+	text-align: center;
+}
+
+/*.page-id-10 .sponsors-list::before {
+  background-color: #ffffff;
+  bottom: 30px;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+
+.sponsors-list::after {
+  background-color: #ffffff;
+  bottom: 1px;
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 1px;
+  width: 1px;
+} */
+.page-id-10 .sponsors-list .sponsor-item {
+	width: 33.3333%;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: -4px;
+	padding: 10px;
+	box-sizing: border-box;
+/* border-bottom: 1px solid #efefef;
+	border-right: 1px solid #efefef;*/
+}
+
+.page-id-10 .sponsors-list .sponsor-item a {
+	display: block;
+	box-shadow: none !important;
+}
+
+.page-id-10 .in-kind .level-image {
+	padding: 10px;
+	background-color: #EA6600;
+	text-align: center;
+}
+
+.page-id-10 .in-kind .level-image h3 {
+	color: #fff;
+	margin: 0;
+	padding: 5px 0;
+	font-size: 24px;
+	font-family: "Muli", sans-serif;
+}
+
+/*** Become a Sponsor ***/
+.postid-4 .page-header {
+	padding: 120px 30px;
+	background: #ef5734;
+	text-align: center;
+}
+
+.postid-4 #page-content .container {
+	max-width: 800px;
+}
+
+.postid-4 #page-content h2 {
+	font-family: "Muli", sans-serif;
+	font-size: 24px;
+	padding-top: 10px;
+	color: #000;
+}
+
+.postid-4 #page-content h3 {
+	font-family: "Muli", sans-serif;
+	font-size: 20px;
+	padding-top: 10px;
+	font-weight: 700;
+}
+
+.postid-4 #page-content p,.page-id-19 #page-content li ul li {
+	font-size: 16px;
+}
+
+.postid-4 #page-content p strong {
+	font-family: "Muli", sans-serif;
+}
+
+.postid-4 .contact-form label {
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+
+.page-id-17 #contact-content .contact-form label span {
+	display: block;
+	margin-left: 0;
+}
+
+.postid-4 .contact-form input,
+.postid-4 .contact-form textarea,
+.postid-4 .contact-form select {
+	outline: none !important;
+}
+
+.postid-4 .contact-form input,
+.postid-4 .contact-form textarea {
+	-webkit-appearance: none;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: 16px;
+	line-height: normal;
+	width: 100%;
+	padding: 15px;
+	background-color: transparent;
+	border-radius: 0;
+	border: none;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+.postid-4 .contact-form .contact-submit input {
+	width: auto;
+	padding: 15px 40px;
+	background-color: #ef5734;
+	color: #fff;
+	font-family: "Muli", sans-serif;
+	border-color: #ef5734;
+}
+
+.postid-4 .contact-form textarea {
+	height: 80px;
+}
+
+.postid-4 .contact-form select {
+	border: 1px solid #dcdcdc;
+	width: 100%;
+	padding: 15px;
+	border-radius: 0;
+	margin-bottom: 20px;
+	height: 58px;
+}
+
+.postid-4 .form-error {
+	text-align: left;
+	padding: 0;
+}
+
+.postid-4 .form-error ul {
+	list-style-type: disc;
+	padding-left: 15px;
+}
+
+.postid-4 .form-error ul li {
+	padding-bottom: 7px;
+}
+
+/*** Schedule ***/
+.page-id-7 .page-header {
+	padding: 120px 30px;
+	background: #ef5734;
+	text-align: center;
+}
+
+.page-id-7 #page-content .container {
+	max-width: 900px;
+}
+
+.page-id-7 #page-content h2 {
+	font-family: "Muli", sans-serif;
+	font-size: 24px;
+	padding-top: 10px;
+	color: #e05c28;
+}
+
+.page-id-7 #page-content h3 {
+	font-family: "Muli", sans-serif;
+	font-size: 20px;
+	padding-top: 10px;
+	font-weight: 700;
+}
+
+.page-id-7 #page-content p,.page-id-19 #page-content li ul li {
+	font-size: 16px;
+}
+
+.page-id-7 #page-content tr {
+	border: none;
+}
+
+.page-id-7 #page-content tr th,
+.page-id-7 #page-content tr td {
+	padding: 10px;
+}
+
+.page-id-7 #page-content .wcpt-schedule {
+	margin-bottom: 50px;
+}
+
+.page-id-7 #page-content tr a {
+	text-decoration: none !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.page-id-7 #page-content .wcpt-session-speakers a {
+}
+
+.page-id-7 #page-content .wcpt-session-speakers a:before {
+	content: " | ";
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.page-id-7 #page-content tr:nth-child(n+1) {
+	background-color: #f5f5f5;
+}
+
+.page-id-7 #page-content tr:nth-child(2n) {
+	background-color: #e05c28;
+	color: #fff;
+}
+
+.page-id-7 #page-content tr:nth-child(2n) a {
+	color: #fff;
+}
+
+.page-id-7 #page-content p strong {
+	font-family: "Muli", sans-serif;
+}
+
+/*** Become a Speaker ***/
+.postid-5 .entry-content h3 {
+	font-family: "Muli", sans-serif;
+	font-size: 20px;
+	padding-top: 10px;
+	font-weight: 700;
+}
+
+.postid-5 .entry-content ul li {
+	margin-bottom: 10px;
+}
+
+.postid-5 #page-content p,.page-id-19 #page-content li ul li {
+	font-size: 16px;
+}
+
+.postid-5 #page-content p strong {
+	font-family: "Muli", sans-serif;
+}
+
+.postid-5 .contact-form label {
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+
+.postid-5 #contact-content .contact-form label span {
+	display: block;
+	margin-left: 0;
+}
+
+.postid-5 .contact-form input,
+.postid-5 .contact-form textarea,
+.postid-5 .contact-form select {
+	outline: none !important;
+}
+
+.postid-5 .contact-form input[type="text"],
+.postid-5 .contact-form input[type="email"],
+.postid-5 .contact-form textarea {
+	-webkit-appearance: none;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: 16px;
+	line-height: normal;
+	width: 100%;
+	padding: 15px;
+	background-color: transparent;
+	border-radius: 0;
+	border: none;
+	border-bottom: 1px solid #dcdcdc;
+	margin-bottom: 30px;
+}
+
+.postid-5 .contact-form .contact-submit input {
+	width: auto;
+	padding: 15px 40px;
+	background-color: #ef5734;
+	color: #fff;
+	font-family: "Muli", sans-serif;
+	border-color: #ef5734;
+}
+
+.postid-5 .contact-form textarea {
+	height: 80px;
+}
+
+.postid-5 .contact-form textarea#contact-form-comment-g1745-blueprintofyourtopic {
+	height: 200px;
+}
+
+.postid-5 .contact-form select {
+	border: 1px solid #dcdcdc;
+	width: 100%;
+	padding: 15px;
+	border-radius: 0;
+	margin-bottom: 20px;
+	height: 58px;
+}
+
+.postid-5 .form-error {
+	text-align: left;
+	padding: 0;
+}
+
+.postid-5 .form-error ul {
+	list-style-type: disc;
+	padding-left: 15px;
+}
+
+.postid-5 .form-error ul li {
+	padding-bottom: 7px;
+}
+
+/*** Become a Volunteers ***/
+.postid-6 .entry-content h3 {
+	font-family: "Muli", sans-serif;
+	font-size: 20px;
+	padding-top: 10px;
+	font-weight: 700;
+}
+
+.postid-6 .entry-content ul li {
+	margin-bottom: 10px;
+}
+
+.postid-6 #page-content p,
+.page-id-19 #page-content li ul li {
+	font-size: 16px;
+}
+
+.postid-6 #page-content p strong {
+	font-family: "Muli", sans-serif;
+}
+
+.postid-1682 .contact-form label,
+.postid-6 .contact-form label {
+	margin-bottom: 10px;
+	font-weight: 700;
+	font-family: "Muli", sans-serif;
+}
+
+.postid-1682 .contact-form label.checkbox-multiple,
+.postid-6 .contact-form label.checkbox-multiple {
+	font-weight: 400 !important;
+}
+
+.postid-1682 #contact-content .contact-form label span,
+.postid-6 #contact-content .contact-form label span {
+	display: block;
+	margin-left: 0;
+}
+
+.postid-1682 .contact-form input,
+.postid-6 .contact-form input,
+.postid-6 .contact-form textarea,
+.postid-6 .contact-form select {
+	outline: none !important;
+}
+
+.postid-1682 .contact-form input[type="text"],
+.postid-1682 .contact-form input[type="email"],
+.postid-6 .contact-form input[type="text"],
+.postid-6 .contact-form input[type="email"],
+.postid-6 .contact-form textarea {
+	-webkit-appearance: none;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: 16px;
+	line-height: normal;
+	width: 100%;
+	padding: 15px;
+	background-color: transparent;
+	border-radius: 0;
+	border: none;
+	border-bottom: 1px solid #dcdcdc;
+	margin-bottom: 30px;
+}
+
+.postid-1682 .contact-form .contact-submit input,
+.postid-6 .contact-form .contact-submit input {
+	width: auto;
+	padding: 15px 40px;
+	background-color: #ef5734;
+	color: #fff;
+	font-family: "Muli", sans-serif;
+	border-color: #ef5734;
+}
+
+.postid-5 .contact-form textarea {
+	height: 80px;
+}
+
+.postid-5 .contact-form textarea#contact-form-comment-g1745-blueprintofyourtopic {
+	height: 200px;
+}
+
+.postid-5 .contact-form select {
+	border: 1px solid #dcdcdc;
+	width: 100%;
+	padding: 15px;
+	border-radius: 0;
+	margin-bottom: 20px;
+	height: 58px;
+}
+
+.postid-5 .form-error {
+	text-align: left;
+	padding: 0;
+}
+
+.postid-6 .form-error ul {
+	list-style-type: disc;
+	padding-left: 15px;
+}
+
+.postid-6 .form-error ul li {
+	padding-bottom: 7px;
+}
+
+/*** Blog Page ***/
+.blog #content,
+.archive #content,
+.author #content,
+.search #content {
+	padding: 450px 0 0;
+	position: relative;
+}
+
+.single-post #content {
+	padding: 50px 0 0;
+}
+
+.blog #content .wrap,
+.archive #content .wrap,
+.author #content .wrap,
+.search #content .wrap,
+.single-post #content .wrap {
+	max-width: 1170px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.blog #content .page-header,
+.archive #content .page-header,
+.author #content .page-header,
+.search #content .page-header,
+.single-post #content .page-header {
+	padding: 160px 30px;
+	text-align: center;
+	color: #fff;
+	background: #000000 url('https://2018.ahmedabad.wordcamp.org/files/2018/08/Venue-banner.jpg') no-repeat scroll center center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 400px;
+	overflow: hidden;
+}
+
+.blog #content .page-header h1::before,
+.archive #content .page-header h1::before,
+.author #content .page-header h1::before,
+.search #content .page-header h1::before,
+.single-post #content .page-header h1::before {
+	background-color: #fff;
+	bottom: 50px;
+	content: "";
+	display: inline-block;
+	position: absolute;
+	right: -20px;
+	top: 15px;
+	width: 2px;
+}
+
+.blog #content .page-header h1::after,
+.archive #content .page-header h1::after,
+.author #content .page-header h1::after,
+.search #content .page-header h1::after,
+.single-post #content .page-header h1::after {
+	background-color: #fff;
+	bottom: 30px;
+	content: "";
+	display: inline-block;
+	height: 2px;
+	position: absolute;
+	right: -35px;
+	width: 35px;
+}
+
+.blog #content .page-header h1,
+.archive #content .page-header h1,
+.author #content .page-header h1,
+.search #content .page-header h1,
+.single-post #content .page-header h1 {
+	color: #fff;
+	display: inline-block;
+	font-family: "Muli", sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	margin-bottom: 0;
+	padding-bottom: 50px;
+	position: relative;
+	text-align: right;
+	text-transform: none;
+	letter-spacing: normal;
+	left: -60px;
+	position: relative;
+}
+
+.blog #content #primary,
+.archive #content #primary,
+.author #content #primary,
+.search #content #primary,
+.single-post #content #primary {
+	width: 65%;
+}
+
+.blog #content #secondary,
+.archive #content #secondary,
+.author #content #secondary,
+.search #content #secondary,
+.single-post #content #secondary {
+	width: 35%;
+	padding-left: 30px;
+}
+
+.blog #content a,
+.archive #content a,
+.author #content a,
+.search #content a,
+.single-post #content a {
+	box-shadow: none !important;
+}
+
+.blog #content .entry-content a,
+.archive #content .entry-content a,
+.author #content .entry-content a,
+.search #content .entry-content a,
+.single-post #content .entry-content a {
+	color: #ef5734;
+}
+
+.blog #content article,
+.archive #content article,
+.author #content article,
+.search #content article {
+	padding: 30px;
+	background-color: #f5f5f5;
+	margin-bottom: 30px;
+}
+
+.single-post #content article {
+	margin-bottom: 30px;
+}
+
+.blog #content article h2.entry-title,
+.archive #content article h2.entry-title,
+.author #content article h2.entry-title,
+.search #content article h2.entry-title,
+.single-post #content article h2.entry-title {
+	font-family: "Muli", sans-serif;
+}
+
+.blog #content article p:last-child,
+.archive #content article p:last-child,
+.author #content article p:last-child,
+.search #content article p:last-child,
+.single-post #content article p:last-child {
+	margin: 0;
+}
+
+.blog #content article a.more-link::before,
+.archive #content article a.more-link::before,
+.author #content article a.more-link::before,
+.search #content article a.more-link::before,
+.single-post #content article a.more-link::before {
+	display: none;
+}
+
+.blog #content article a.more-link::after,
+.archive #content article a.more-link::after,
+.author #content article a.more-link::after,
+.search #content article a.more-link::after,
+.single-post #content article a.more-link::after {
+	background-color: #ef5734;
+	content: "";
+	display: inline-block;
+	height: 1px;
+	position: absolute;
+	right: -20px;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	width: 40px;
+}
+
+.blog #content article a.more-link,
+.archive #content article a.more-link,
+.author #content article a.more-link,
+.search #content article a.more-link,
+.single-post #content article a.more-link {
+	border: 1px solid #424242;
+	box-shadow: none;
+	color: #ef5734;
+	display: inline-block;
+	font-family: "Muli", sans-serif;
+	font-size: 18px;
+	padding: 15px 40px;
+	position: relative;
+}
+
+.blog #content #secondary .widget_search,
+.archive #content #secondary .widget_search,
+.author #content #secondary .widget_search,
+.search #content #secondary .widget_search,
+.single-post #content #secondary .widget_search {
+	padding: 20px;
+	background-color: #ef5734;
+	margin-bottom: 40px;
+}
+
+.blog #content #secondary .widget_search .search-field,
+.archive #content #secondary .widget_search .search-field,
+.author #content #secondary .widget_search .search-field,
+.search #content #secondary .widget_search .search-field,
+.single-post #content #secondary .widget_search .search-field {
+	-webkit-appearance: none;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.blog #content #secondary .widget_search .search-submit,
+.archive #content #secondary .widget_search .search-submit,
+.author #content #secondary .widget_search .search-submit,
+.search #content #secondary .widget_search .search-submit,
+.single-post #content #secondary .widget_search .search-submit {
+	-webkit-appearance: none;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	color: #ef5734;
+	background-color: #fff;
+}
+
+.blog #content #secondary .widget_recent_entries,
+.archive #content #secondary .widget_recent_entries,
+.author #content #secondary .widget_recent_entries,
+.search #content #secondary .widget_recent_entries,
+.single-post #content #secondary .widget_recent_entries {
+	padding: 20px;
+	background-color: #FBFBFB;
+	border: 1px solid #E7E7E7;
+	border-top: 5px solid #ef5734;
+	margin-bottom: 30px;
+}
+
+.blog #content #secondary .widget-title,
+.archive #content #secondary .widget-title,
+.author #content #secondary .widget-title,
+.search #content #secondary .widget-title,
+.single-post #content #secondary .widget-title {
+	font-family: "Muli", sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: normal;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.blog #content #secondary ul,
+.archive #content #secondary ul,
+.author #content #secondary ul,
+.search #content #secondary ul,
+.single-post #content #secondary ul {
+	padding: 0;
+}
+
+.blog #content #secondary ul li,
+.archive #content #secondary ul li,
+.author #content #secondary ul li,
+.search #content #secondary ul li,
+.single-post #content #secondary ul li {
+	padding: 10px 0;
+	border-bottom: none;
+	border-top: 1px solid #E7E7E7;
+	font-size: 16px;
+}
+
+.blog #content #secondary ul li span,
+.archive #content #secondary ul li span,
+.author #content #secondary ul li span,
+.search #content #secondary ul li span,
+.single-post #content #secondary ul li span {
+	color: #a6a6a6;
+}
+
+.blog #content #secondary .jetpack_subscription_widget,
+.archive #content #secondary .jetpack_subscription_widget,
+.author #content #secondary .jetpack_subscription_widget,
+.search #content #secondary .jetpack_subscription_widget,
+.single-post #content #secondary .jetpack_subscription_widget {
+	padding: 180px 20px 20px;
+	background-color: #FBFBFB;
+	border: 1px solid #E7E7E7;
+	border-top: 5px solid #ef5734;
+	margin-bottom: 40px;
+	background: #FBFBFB url('https://2018.ahmedabad.wordcamp.org/files/2018/09/Newsletter-Icon.png') no-repeat;
+	background-position: center 20px;
+	text-align: center;
+}
+
+.blog #content #secondary .jetpack_subscription_widget #subscribe-text,
+.archive #content #secondary .jetpack_subscription_widget #subscribe-text,
+.author #content #secondary .jetpack_subscription_widget #subscribe-text,
+.search #content #secondary .jetpack_subscription_widget #subscribe-text,
+.single-post #content #secondary .jetpack_subscription_widget #subscribe-text {
+	margin-bottom: 20px;
+}
+
+.blog #content #secondary .jetpack_subscription_widget input,
+.archive #content #secondary .jetpack_subscription_widget input,
+.author #content #secondary .jetpack_subscription_widget input,
+.search #content #secondary .jetpack_subscription_widget input,
+.single-post #content #secondary .jetpack_subscription_widget input {
+	-webkit-appearance: none;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	color: #000;
+	background-color: #e7e7e7;
+	text-align: center;
+	padding: 15px;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 18px;
+	line-height: normal;
+	font-family: "Muli", sans-serif;
+}
+
+.blog #content #secondary .jetpack_subscription_widget ::-moz-placeholder,
+.archive #content #secondary .jetpack_subscription_widget ::-moz-placeholder,
+.author #content #secondary .jetpack_subscription_widget ::-moz-placeholder,
+.search #content #secondary .jetpack_subscription_widget ::-moz-placeholder,
+.single-post #content #secondary .jetpack_subscription_widget ::-moz-placeholder {
+	font-family: "Muli", sans-serif;
+}
+
+.blog #content #secondary .jetpack_subscription_widget #subscribe-submit input,
+.archive #content #secondary .jetpack_subscription_widget #subscribe-submit input,
+.author #content #secondary .jetpack_subscription_widget #subscribe-submit input,
+.search #content #secondary .jetpack_subscription_widget #subscribe-submit input,
+.single-post #content #secondary .jetpack_subscription_widget #subscribe-submit input {
+	font-weight: 400;
+	color: #fff;
+	background-color: #ef5734;
+}
+
+.wcb_widget_sponsors a.sponsor-logo {
+	padding: 5px;
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+	margin-right: -4px;
+	pointer-events: none !important;
+	cursor: default;
+}
+
+.blog #content #secondary p,
+.archive #content #secondary p,
+.author #content #secondary p,
+.search #content #secondary p,
+.single-post #content #secondary p {
+	margin-bottom: 5px;
+}
+
+.blog #content #secondary p:last-child,
+.archive #content #secondary p:last-child,
+.author #content #secondary p:last-child,
+.search #content #secondary p:last-child,
+.single-post #content #secondary p:last-child {
+	margin-bottom: 0;
+}
+
+.blog #content #secondary .wcb_widget_sponsors,
+.archive #content #secondary .wcb_widget_sponsors,
+.author #content #secondary .wcb_widget_sponsors,
+.search #content #secondary .wcb_widget_sponsors,
+.single-post #content #secondary .wcb_widget_sponsors {
+	padding: 20px 20px 0;
+	background-color: #FBFBFB;
+	border: 1px solid #E7E7E7;
+	border-top: 5px solid #ef5734;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#secondary .wcb_widget_sponsors h4 {
+	font-weight: 400;
+	margin-bottom: 0;
+	font-size: 16px;
+	margin: 0 -20px;
+	padding: 10px 15px;
+	color: #fff;
+	background-color: #ef5734;
+}
+
+#secondary .wcb_widget_sponsors .sponsor-level {
+}
+
+#secondary .wcb_widget_sponsors .sponsor-level.gold {
+	padding-top: 0;
+	border: none;
+}
+
+#secondary .wcb_widget_sponsors img {
+	box-shadow: none;
+}
+
+/*** Organizers Page ***/
+.page-id-12 .page-header {
+	background: #ef5734;
+	padding: 120px 30px;
+	text-align: center;
+}
+
+#organizers {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#organizers .organizer {
+	overflow: hidden;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #efefef;
+}
+
+#organizers .organizer.last {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border: none;
+}
+
+#organizers .organizer .org_image {
+	float: left;
+	margin-right: 20px;
+	max-width: 250px;
+}
+
+#organizers .organizer.rightphoto .org_image {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
+
+#organizers .organizer .org_bio {
+	overflow: hidden;
+}
+
+#organizers .organizer h3 {
+	font-family: "Muli", sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+#organizers .organizer p {
+	margin-bottom: 10px;
+}
+
+#organizers .organizer a {
+	box-shadow: none !important;
+	color: #ef5734 !important;
+	margin-right: 5px;
+	display: inline-block;
+}
+
+/*** Speakers ***/
+.page-id-8 .page-header,
+.page-id-4442 .page-header {
+	background: #ef5734 none repeat scroll 0 0;
+	padding: 120px 30px;
+	text-align: center;
+}
+
+.wcorg-speakers .wcorg-speaker {
+	position: relative;
+	padding: 30px 60px 30px 290px;
+	background-color: #F1F1F1;
+	margin-bottom: 30px;
+	font-size: 15px;
+	font-family: "Muli", sans-serif;
+	min-height: 290px;
+	border-radius: 30px;
+	border-bottom: 4px solid #ef5734;
+}
+
+.wcorg-speakers .wcorg-speaker .avatar {
+	position: absolute;
+	left: 30px;
+	top: 30px;
+	width: 230px;
+	height: 230px;
+	pointer-events: none !important;
+	border-radius: 30px;
+}
+
+.wcorg-speakers .wcorg-speaker h2 {
+	color: #000;
+	font-size: 20px;
+}
+
+.wcorg-speakers .wcorg-speaker p {
+	padding: 0;
+	margin: 0 0 10px;
+}
+
+/*** Attendees ***/
+.page-id-2516 .page-header,
+.page-id-14 .page-header {
+	background: #ef5734 none repeat scroll 0 0;
+	padding: 120px 30px;
+	text-align: center;
+}
+
+#tix-attendees ul {
+	overflow: hidden;
+	padding: 0;
+}
+
+#tix-attendees ul li {
+	float: none;
+	position: relative;
+	padding: 15px 15px 15px 80px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 2%;
+	box-sizing: border-box;
+	min-height: 80px;
+	margin-bottom: 15px;
+	height: auto;
+	background-color: #f1f1f1;
+	border-radius: 60px;
+	width: 31.2222% !important;
+	border-bottom: 4px solid #ef5734;
+}
+
+#tix-attendees ul li img.photo {
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	border-radius: 50%;
+}
+
+#tix-attendees ul li .tix-field {
+	margin-left: 0;
+}
+
+#tix-attendees ul li .tix-attendee-name {
+	font-size: 16px;
+}
+
+#tix-attendees ul li a {
+	box-shadow: none !important;
+	font-family: "Muli", sans-serif;
+	color: #ef5734;
+}
+
+#tix-attendees ul li a.tix-attendee-twitter:before {
+	content: "\f301";
+}
+
+#tix-attendees ul li a.tix-attendee-url:before {
+	content: "\f319";
+}
+
+#tix-attendees ul li a.tix-attendee-twitter:before,
+#tix-attendees ul li a.tix-attendee-url:before {
+	font-family: dashicons;
+	text-indent: 0;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	text-align: center;
+}
+
+#tix-attendees ul li a.tix-attendee-url, 
+#tix-attendees ul li a.tix-attendee-twitter {
+	display: inline-block;
+	width: 26px;
+	overflow: hidden;
+	height: 20px;
+	position: relative;
+	margin-top: 2px;
+	vertical-align: top;
+	font-weight: 400;
+	font-size: 16px;
+	color: #ef5734;
+}
+
+/*** 404 Page ***/
+.error404 .wrap {
+	max-width: 100% !important;
+	padding: 0 !important;
+}
+
+.error404 .page-content {
+	display: none;
+}
+
+.error404 #content {
+	padding: 30px !important;
+}
+
+.error404 #content .page-header {
+	float: none !important;
+	width: 100% !important;
+	padding: 40px 0 !important;
+	text-align: center;
+}
+
+/*** Responsive ***/
+@media all and (max-width: 980px) {
+	#wp-custom-header img {
+		display: none;
+	}
+	
+	.home #masthead .custom-header {
+		height: 600px;
+	}
+	
+	#wp-custom-header {
+		min-height: 100%;
+		display: block;
+		background-image: url('https://2018.ahmedabad.wordcamp.org/files/2018/08/Banner_New.jpg');
+		background-repeat: no-repeat;
+		background-position: top center;
+		background-color: #006f9e;
+		background-size: cover;
+	}
+	
+	#wccsp-container .wccsp-header::before {
+		min-height: 600px;
+		background-size: cover;
+	}
+	
+	.home #about-section .col {
+		width: 100%;
+	}
+	
+	.home #about-section .section-image {
+		margin-top: 0;
+		text-align: center;
+	}
+	
+	.page-id-207 #venue-content .two-col .col {
+		width: 100%;
+	}
+	
+	.page-id-207 #venue-content .text-wrap {
+		min-height: 350px;
+		height: auto;
+	}
+	
+	.desktop-visible {
+		display: none !important;
+	}
+	
+	.mobile-visible {
+		display: block !important;
+	}
+	
+	.home #sponsors-section-new .sponsor-logos {
+		padding: 0;
+	}
+	
+	.home #sponsors-section-new .sponsor-item {
+		padding: 10px;
+		max-width: 200px;
+	}
+}
+
+@media all and (max-width: 767px) {
+	/*** Header ***/
+	#masthead .site-branding {
+		z-index: 9999;
+	}
+	
+	.page-header h2.section-title {
+		left: -120px;
+	}
+	
+	#wp-custom-header img {
+		display: none;
+	}
+	
+	.home #masthead .custom-header {
+		height: 300px;
+	}
+	
+	#wp-custom-header {
+		min-height: 100%;
+		display: block;
+		background-image: url('https://2018.ahmedabad.wordcamp.org/files/2018/08/Banner_New.jpg');
+		background-repeat: no-repeat;
+		background-position: top center;
+		background-color: #006f9e;
+		background-size: cover;
+	}
+	
+	#masthead .site-branding {
+		bottom: -55px;
+		display: block;
+		height: auto;
+		margin-left: 15px;
+		padding: 0;
+		position: absolute;
+		top: auto;
+		width: 80px;
+	}
+	
+	#masthead .site-branding a:hover, #masthead .site-branding a:focus {
+		opacity: 1;
+	}
+	
+	#masthead .site-branding .site-branding-text {
+		display: none;
+	}
+	
+	#site-navigation {
+		text-align: right;
+	}
+	
+	#site-navigation .menu-toggle {
+		margin: 0;
+		display: inline-block;
+	}
+	
+	#site-navigation .menu-toggle:focus {
+		outline: none !important;
+	}
+	
+	#site-navigation #top-menu {
+		padding: 0;
+	}
+	
+	#site-navigation #top-menu li {
+		padding: 0;
+	}
+	
+	#site-navigation #top-menu .tickets_link {
+		position: static !important;
+	}
+	
+	#site-navigation #top-menu .tickets_link a {
+		display: block !important;
+	}
+	
+	#site-navigation #top-menu li a {
+		padding: 10px;
+		border: none !important;
+	}
+	
+	#site-navigation #top-menu li.header-logo {
+		display: none !important;
+	}
+	
+	#site-navigation #top-menu li ul.sub-menu {
+		padding: 0;
+		text-align: center;
+	}
+	
+	#site-navigation #top-menu li .icon {
+		right: 15px;
+	}
+	
+	/*** Homepage ***/
+	.home .home-section {
+		padding: 30px 0;
+	}
+	
+	.two-col .col {
+		width: 100%;
+	}
+	
+	.home #about-section .text-wrap {
+		padding: 20px;
+	}
+	
+	.home .home-section h2 {
+		font-size: 30px;
+	}
+	
+	.home #about-section .section-image {
+		margin-top: 0;
+	}
+	
+	.home #about-section {
+		background-size: 700px;
+		padding-bottom: 100px;
+	}
+	
+	.home #city-section .text-wrap, .home #venue-section .text-wrap {
+		padding: 20px;
+		width: 100%;
+	}
+	
+	.home .home-section .section-btn {
+		padding-top: 20px;
+	}
+	
+	.home #venue-section h2 {
+		max-width: 120px;
+	}
+	
+	.home #venue-section .venue-image {
+		padding: 0;
+		position: static;
+	}
+	
+	.home #venue-section .container {
+		position: static;
+		padding-top: 20px;
+	}
+	
+	.home #venue-section .venue-image-wrap {
+		height: 200px;
+	}
+	
+	.home #venue-section .venue-image img {
+		vertical-align: top;
+	}
+	
+	.home #sponsors-section .sponsor-logos-wrap,
+																																					.home #blog-section .posts-list {
+		padding-top: 0;
+	}
+	
+	.home #sponsors-section h2 {
+		max-width: 180px;
+	}
+	
+	.home #sponsors-section .single-slogo {
+		width: 33.333%;
+		min-height: 120px;
+	}
+	
+	.home #sponsors-section-new .sponsor-item {
+		max-width: 33.3333%;
+		margin-right: -4px;
+		padding: 8px;
+	}
+	
+	.home #sponsors-section .slogo-wrap {
+	}
+	
+	.home #sponsors-section .slogo-wrap img {
+		max-height: 40px;
+		width: auto;
+	}
+	
+	.home #speakers-section h2 {
+		max-width: 170px;
+	}
+	
+	.home #speakers-section .speakers-list {
+		padding-top: 0;
+	}
+	
+	.home #speakers-section .single-speaker {
+		width: 50%;
+	}
+	
+	.home .home-section .section-btn a {
+		font-size: 16px;
+		padding: 10px 30px;
+	}
+	
+	#wcahmd2017 #info {
+		background-color: rbga(0,0,0,0.6);
+	}
+	
+	#wcahmd2017 .group-image {
+		margin: 0 -35%;
+	}
+	
+	#wcahmd2017 .container {
+		bottom: 30px;
+	}
+	
+	#wcahmd2017 ul li {
+		width: 50%;
+		padding: 2px 15px;
+		font-size: 14px;
+	}
+	
+	#wcahmd2017 ul li strong {
+		font-size: 24px;
+		line-height: 24px;
+	}
+	
+	#wcahmd2017 .section-btn {
+		padding-top: 10px;
+	}
+	
+	.home #blog-section,
+																																					.home #sponsors-section,
+																																					.home #city-section {
+		background-attachment: scroll;
+	}
+	
+	.home #blog-section h2 {
+		max-width: 120px;
+	}
+	
+	.home #blog-section .post-image, .home #blog-section .post-detail {
+		float: none !important;
+		width: 100%;
+	}
+	
+	.home #blog-section .post-detail {
+		padding: 20px;
+	}
+	
+	.home #blog-section .post-detail h3 a {
+		font-size: 22px;
+	}
+	
+	#colophon .footer-widget-1 {
+		padding: 30px;
+		background-size: auto;
+		background-position: bottom center;
+	}
+	
+	#colophon .footer-widget-1 h2.widget-title {
+		font-size: 24px;
+	}
+	
+	#colophon .footer-widget-1 #subscribe-text {
+		font-size: 18px;
+	}
+	
+	#colophon .footer-logo, #colophon .footer-text {
+		float: none;
+		padding: 0;
+		text-align: center;
+	}
+	
+	#colophon .footer-logo img {
+		max-width: 200px;
+	}
+	
+	#colophon .social-icons a {
+		margin: 0 10px;
+	}
+	
+	/*** Contact Page ***/
+	.page-id-17 .contact-header {
+		padding: 0 30px;
+	}
+	
+	.page-id-17 .header-wrap {
+		background: none;
+		padding-bottom: 30px;
+	}
+	
+	.page-id-17 .header-wrap h1 {
+		padding: 30px 0;
+		font-size: 24px;
+	}
+	
+	.page-id-17 .header-wrap h2 {
+		padding: 0 0 30px;
+	}
+	
+	.btn-wrap a {
+		padding: 10px 30px;
+		font-size: 16px;
+	}
+	
+	.page-id-17 #contact-content::after {
+		display: none;
+	}
+	
+	.page-id-17 .text-wrap {
+		padding: 30px;
+	}
+	
+	.page-id-17 .text-wrap .section-title {
+		font-size: 30px;
+		margin-bottom: 15px;
+	}
+	
+	.page-id-17 .text-wrap.social-section {
+		background-color: #e6f1f8;
+	}
+	
+	.page-id-17 #contact-content .container {
+		padding: 0;
+	}
+	
+	/*** Venue Page ***/
+	.page-id-7 .page-header,
+																																					.page-id-14 .page-header,
+																																					.page-id-2516 .page-header,
+																																					.page-id-13 .page-header,
+																																					.postid-4 .page-header,
+																																					.page-id-12 .page-header,
+																																					.page-id-207 .page-header,
+																																					.page-id-19 .page-header,
+																																					.page-id-10 .page-header,
+																																					.page-id-8 .page-header,
+																																					.page-id-4442 .page-header {
+		padding: 60px 30px;
+	}
+	
+	.page-id-207 #venue-content {
+		padding: 0;
+	}
+	
+	.page-id-207 #venue-content .text-wrap {
+		padding: 30px;
+		border-bottom: 1px solid #efefef;
+	}
+	
+	.page-id-207 #venue-content .venue-image1,
+																																					.page-id-207 #venue-content .venue-image2,
+																																					.page-id-207 #venue-content .venue-image3 {
+		min-height: 300px;
+	}
+	
+	h2.section-title {
+		font-size: 30px;
+	}
+	
+	/*** Blog Page ***/
+	.blog #content .page-header h1,
+																																					.search #content .page-header h1,
+																																					.archive #content .page-header h1,
+																																					.author #content .page-header h1,
+																																					.single-post #content .page-header h1 {
+		font-size: 22px;
+		left: 0;
+	}
+	
+	.blog #content .page-header,
+																																					.author #content .page-header,
+																																					.archive #content .page-header,
+																																					.search #content .page-header {
+		height: 200px;
+		padding: 60px 30px;
+	}
+	
+	.blog #content,
+																																					.archive #content,
+																																					.author #content,
+																																					.search #content {
+		padding-top: 220px;
+	}
+	
+	.single-post #content {
+		padding-top: 20px;
+	}
+	
+	.blog #content #primary,
+																																					.blog #content #secondary,
+																																					.archive #content #primary,
+																																					.archive #content #secondary,
+																																					.author #content #primary,
+																																					.author #content #secondary,
+																																					.search #content #primary,
+																																					.search #content #secondary,
+																																					.single-post #content #primary,
+																																					.single-post #content #secondary {
+		float: none;
+		padding: 0;
+		width: 100%;
+	}
+	
+	/*** Orgbanizers ***/
+	#organizers .organizer .org_image {
+		float: none !important;
+		margin: 0 0 15px !important;
+	}
+	
+	#wccsp-container .wccsp-header::before {
+		min-height: 300px;
+		background-size: cover;
+	}
+	
+	#wccsp-container .wccsp-header .wccsp-container {
+		margin: 30px auto;
+	}
+	
+	#wccsp-container .wccsp-header .wccsp-subscription .jetpack_subscription_widget {
+		padding: 65px 30px 35px;
+	}
+	
+	#wccsp-container .wccsp-header .wccsp-subscription form {
+		background: none;
+		border: none;
+		padding: 0;
+	}
+	
+	#wccsp-container .wccsp-header #subscribe-email input {
+		height: auto;
+		padding: 10px 10px 10px 20px;
+		font-size: 16px;
+	}
+	
+	#wccsp-container .wccsp-header input[type="submit"] {
+		width: 100%;
+		min-width: inherit;
+		padding: 12px 10px;
+		font-size: 16px;
+		position: static;
+		border-radius: 40px;
+		height: auto;
+		margin-top: 5px;
+	}
+	
+	#wccsp-container .wccsp-introduction {
+		padding: 40px 40px 80px;
+	}
+	
+	#wccsp-container .wccsp-introduction::after {
+		bottom: -50px;
+		height: 100px;
+	}
+	
+	#wccsp-container .wccsp-contact {
+		padding-top: 190px;
+	}
+	
+	body.postid-1584 img.alignleft {
+		float: none;
+		display: block;
+		margin-right: 0;
+		margin-bottom: 20px !important;
+	}
+	
+	body.postid-1584 #main h2.blog-anchor {
+		padding-top: 30px !important;
+	}
+	
+	#tix-attendees ul li {
+		width: 48% !important;
+	}
+	
+	.wcorg-speakers .wcorg-speaker {
+		padding: 30px;
+	}
+	
+	.wcorg-speakers .wcorg-speaker .avatar {
+		position: static;
+		margin-bottom: 20px;
+	}
+}
+
+@media all and (max-width: 479px) {
+	.home #speakers-section .single-speaker {
+		display: block;
+		width: 100%;
+		margin-right: 0;
+	}
+	
+	.home #sponsors-section .slogo-wrap img {
+	}
+	
+	#tix-attendees ul li {
+		width: 100% !important;
+	}
+}
+
+body.single-post .entry-content h2,
+body.single-post .entry-content h3,
+body.single-post .entry-content h4 {
+	padding: 0;
+}
+
+.postid-2884 .entry-content a.post_btn,
+.postid-2329 .entry-content a.post_btn,
+.postid-4 .entry-content a.post_btn {
+	display: inline-block;
+	padding: 10px 30px;
+	background-color: #ef5734;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+.postid-2329 .entry-content h3 {
+	font-family: "Muli", sans-serif;
+	font-size: 22px;
+}
+
+.postid-2329 .entry-content a {
+	color: #ef5734;
+}
+
+body.single-post .entry-footer {
+	display: none;
+}
+
+body.postid-1584 img.alignleft {
+	margin-bottom: 30px;
+}
+
+body.postid-1584 hr {
+	clear: both;
+	margin: 30px 0;
+}
+
+body.postid-1584 h2.blog-anchor {
+	padding-top: 100px;
+}
+
+body.postid-1584 .entry-content ul li a {
+	color: #ef5734;
+}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.7);
+	transition: opacity 500ms;
+	-webkit-transition: opacity 500ms;
+	-moz-transition: opacity 500ms;
+	-ms-transition: opacity 500ms;
+	-o-transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 9999;
+}
+
+.overlay:target {
+	visibility: visible;
+	opacity: 1;
+}
+
+.popup {
+	margin: 0 auto;
+	padding: 0 20px;
+	background-color: transparent;
+	max-width: 700px;
+	position: absolute;
+	transition: all 5s ease-in-out;
+	top: 50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+.popup .close {
+	position: absolute;
+	top: -15px;
+	right: 20px;
+	transition: all 200ms;
+	-webkit-transition: all 200ms;
+	-moz-transition: all 200ms;
+	-ms-transition: all 200ms;
+	-o-transition: all 200ms;
+	font-size: 24px;
+	line-height: 30px;
+	text-decoration: none;
+	color: #ef5734 !important;
+	box-shadow: none !important;
+	width: 30px;
+	height: 30px;
+	background-color: #fff;
+	border-radius: 30px;
+	text-align: center;
+}
+
+.popup .content {
+	max-height: 30%;
+	overflow: auto;
+}
+
+.framewrap {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.22%;
+	padding-top: 0;
+	position: relative;
+}
+
+.framewrap iframe {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.single-featured-image-header {
+	display: none;
+}
+
+#secondary .search-form label {
+	margin: 0;
+}
+
+#site-navigation #top-menu .tickets_link {
+	position: absolute;
+	right: 15px;
+	top: 25px;
+}
+
+#site-navigation #top-menu .tickets_link a {
+	background-color: #e05c28;
+	border: medium none;
+	color: #ffffff !important;
+	display: inline-block;
+	padding: 8px 15px;
+	font-weight: 400;
+	letter-spacing: .05em;
+	text-transform: uppercase;
+}
+
+.postid-2990 .entry-content a.post_btn {
+	display: inline-block;
+	padding: 10px 30px;
+	background-color: #ef5734;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+#comments {
+	padding-top: 0;
+}
+
+.comment-body {
+	margin-left: 65px !important;
+}
+
+.post-navigation {
+	font-weight: 400;
+	margin-top: 15px;
+}
+
+body.single-post .content-area a {
+	color: #ef5734;
+}
+
+.postid-4832 .entry-content a.post_btn {
+	display: inline-block;
+	padding: 10px 30px;
+	background-color: #ef5734;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+.postid-5228 .entry-content a.post_btn {
+	display: inline-block;
+	padding: 10px 30px;
+	background-color: #ef5734;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+.home #our-speakers {
+	background: transparent url('https://2018.ahmedabad.wordcamp.org/files/2018/09/bg2.jpg') no-repeat center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.taxonomy-description {
+	display: none;
+}
+
+.our-speakers.home-section h2 {
+	max-width: 200px;
+	display: block;
+	margin: 0 auto;
+	left: -40px;
+	color: #fff;
+}
+
+.home .our-speakers h2:before, .home .our-speakers h2:after {
+	background-color: #fff;
+}
+
+.our-speakers ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.our-speakers-listing > ul > li {
+	width: 25%;
+	float: left;
+	padding: 15px;
+}
+
+.our-speaker-box {
+	position: relative;
+}
+
+.our-speaker-overly {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	padding: 12px;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.overly-border {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #424242;
+	position: relative;
+	z-index: 123;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.our-speaker-overly ul {
+	display: block;
+	width: 100%;
+	height: 50px;
+	position: relative;
+	top: 50%;
+	margin-top: -25px;
+	text-align: center;
+}
+
+.our-speaker-overly ul li {
+	display: inline-block;
+	padding: 0 5px;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.our-speaker-overly ul li a {
+	width: 100%;
+	display: block;
+	font-family: 'Muli', sans-serif;
+	line-height: 30px;
+	font-size: 20px;
+	color: #fff;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	box-shadow: none;
+}
+
+.our-speaker-overly ul li a:hover {
+	color: #ff5f00;
+	box-shadow: none;
+}
+
+.our-speaker-info {
+	background: #f2f2f2;
+	padding: 15px;
+	text-align: center;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.our-speaker-info h4 {
+	margin-bottom: 0;
+	font-size: 16px;
+	color: #1c1c1c;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	padding-bottom: 10px;
+}
+
+.our-speaker-info h4 a {
+	font-family: 'Muli', sans-serif;
+	color: #1c1c1c;
+	text-decoration: none;
+	box-shadow: none;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.our-speaker-info p {
+	margin-bottom: 0;
+	font-size: 14px;
+	color: #424242;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.our-speaker-box:hover .our-speaker-info p {
+	color: #fff;
+}
+
+.our-speaker-box:hover .our-speaker-overly {
+	background: rgba(0,0,0,0.8);
+}
+
+.our-speaker-box:hover .our-speaker-overly ul li {
+	opacity: 1;
+	visibility: visible;
+}
+
+.our-speaker-box:hover .overly-border {
+	border-color: #fff;
+}
+
+.our-speaker-box .our-speaker-img img {
+	width: 100%;
+}
+
+.venue-info-wrap .container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.venue-info-wrap.home-section {
+	padding-bottom: 30px;
+}
+
+.venue-info-wrap.home-section h2 {
+	font-family: "Muli", sans-serif;
+	font-size: 24px;
+	padding-top: 10px;
+	color: #e05c28;
+}
+
+@media (max-width: 991px) {
+	.our-speakers-listing > ul > li {
+		width: 33.33%;
+	}
+}
+
+@media (max-width: 767px) {
+	.our-speakers-listing > ul > li {
+		width: 100%;
+		float: none;
+	}
+}
